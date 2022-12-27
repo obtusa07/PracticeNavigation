@@ -60,7 +60,7 @@
                         <outlet property="navToFirstVCBtn" destination="l4j-l3-x8s" id="M0A-oA-FPN"/>
                         <outlet property="navToSecondVCBtn" destination="R3N-f3-XRX" id="Z9M-SB-CmF"/>
                         <segue destination="HEW-kt-Xhz" kind="show" identifier="navToFirst" id="FYF-rg-dzA"/>
-                        <segue destination="8O0-On-Hbu" kind="show" identifier="navToSecond" id="3xd-Gn-xDK"/>
+                        <segue destination="Enr-i0-wiJ" kind="show" identifier="navToSecond" id="fb0-3f-wIv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -101,30 +101,15 @@
             </objects>
             <point key="canvasLocation" x="1905" y="4"/>
         </scene>
-        <!--Second View Controller-->
-        <scene sceneID="ywA-pS-xzu">
+        <!--SecondView-->
+        <scene sceneID="bdb-Vo-Jds">
             <objects>
-                <viewController id="8O0-On-Hbu" customClass="SecondViewController" customModule="PracticeNavigation" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rk9-2A-Drk">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="두번째 VC임" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7m7-5w-1p9">
-                                <rect key="frame" x="175" y="233" width="86" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="DXv-YQ-4uT"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="uu3-BH-Cc7"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TBt-9z-HNB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="SecondView" storyboardName="SecondView" id="Enr-i0-wiJ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ceS-4h-Q3c"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Csb-Jc-O5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1932" y="747"/>
+            <point key="canvasLocation" x="1013" y="420"/>
         </scene>
     </scenes>
     <resources>
